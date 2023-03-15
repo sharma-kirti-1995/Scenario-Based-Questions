@@ -1,0 +1,25 @@
+class BankingService -> with methods m1,m2,m3.... m10
+A,B,C are the clients that can access only particular methods.
+A -> m1 to m5()
+B -> m6 to m8
+C -> m9 to m10
+Show compilation errors if any client try to access the methods that are not allowed to be accessed.
+
+class BankingService {
+  public void m1();
+  public void m2();
+  .....
+  public void m10();
+
+}
+class ABanking extends BankingService
+   public void m
+
+}
+
+class A
+class MainDemo {
+  A a = new A();
+  a.m6();  //Compilation error
+
+}
